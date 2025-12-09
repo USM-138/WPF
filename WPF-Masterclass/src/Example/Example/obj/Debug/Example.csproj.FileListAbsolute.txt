@@ -1,0 +1,15 @@
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\bin\Debug\Example.exe.config
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\bin\Debug\Example.exe
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\bin\Debug\Example.pdb
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example.csproj.AssemblyReference.cache
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\MainWindow.g.cs
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\App.g.cs
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example_MarkupCompile.cache
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example_MarkupCompile.lref
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\MainWindow.baml
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example.g.resources
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example.Properties.Resources.resources
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example.csproj.GenerateResource.cache
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example.csproj.CoreCompileInputs.cache
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example.exe
+C:\Users\InLive04\Desktop\WPF\WPF-Masterclass\src\Example\Example\obj\Debug\Example.pdb
