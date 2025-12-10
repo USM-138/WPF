@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{83657A51-39D3-42FF-A1C6-0BF6B1431F14}|src\\Calculator\\Calculator\\Calculator.csproj|c:\\users\\inlive04\\desktop\\wpf\\wpf-masterclass\\src\\calculator\\calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{83657A51-39D3-42FF-A1C6-0BF6B1431F14}|src\\Calculator\\Calculator\\Calculator.csproj|solutionrelative:src\\calculator\\calculator\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{83657A51-39D3-42FF-A1C6-0BF6B1431F14}|src\\Calculator\\Calculator\\Calculator.csproj|c:\\users\\inlive04\\desktop\\wpf\\wpf-masterclass\\src\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{83657A51-39D3-42FF-A1C6-0BF6B1431F14}|src\\Calculator\\Calculator\\Calculator.csproj|solutionrelative:src\\calculator\\calculator\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,6 +34,19 @@
               "RelativeToolTip": "src\\Calculator\\Calculator\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-09T19:12:29.735Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\InLive04\\Desktop\\WPF\\WPF-Masterclass\\src\\Calculator\\Calculator\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "src\\Calculator\\Calculator\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\InLive04\\Desktop\\WPF\\WPF-Masterclass\\src\\Calculator\\Calculator\\MainWindow.xaml.cs",
+              "RelativeToolTip": "src\\Calculator\\Calculator\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAnwCgAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-10T17:11:47.567Z",
               "EditorCaption": ""
             }
           ]
