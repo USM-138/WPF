@@ -8,10 +8,9 @@ namespace Calculator
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         private decimal _valorAtual;
-
-        public decimal valorOperacao = 0;
-
         private string _lblValor = "0";
+
+        private decimal valorOperacao = 0;
 
         public MainWindow()
         {
@@ -25,17 +24,15 @@ namespace Calculator
             get { return _lblValor; }
             set
             {
-                if (_lblValor != value)
-                {
+                if(value != _lblValor)
                     _lblValor = value;
 
-                    // Lógica Reversa: Atualiza o decimal sempre que o texto muda
-                    if (decimal.TryParse(_lblValor, out decimal resultado))
-                    {
-                        _valorAtual = resultado;
-                    }
-                    OnPropertyChanged();
-                }
+                // Lógica Reversa: Atualiza o decimal sempre que o texto muda
+                if (decimal.TryParse(_lblValor, out decimal resultado))
+                  {
+                      _valorAtual = resultado;
+                  }
+                  OnPropertyChanged();
             }
         }
 
@@ -72,15 +69,28 @@ namespace Calculator
             if (signal == "+")
             {
                 valorOperacao += _valorAtual;
-
-                LblValor = "0";
             }
+            else if (signal == "-") 
+            {
+                valorOperacao += _valorAtual;
+            }
+            else if (signal == "AC")
+            {
+                valorOperacao = 0;
+            }
+            LblValor = "0";
         }
 
         private void eqButton_Click(object sender, RoutedEventArgs e)
         {
-            decimal resultado = valorOperacao + _valorAtual;
-            LblValor = resultado.ToString();
+            if (valorOperacao < 0) 
+            {
+                LblValor = (valorOperacao - -_valorAtual).ToString();
+            }
+            else if (valorOperacao > 0)
+            {
+                LblValor = (valorOperacao + +_valorAtual).ToString();
+            }
             valorOperacao = 0;
         }
     }

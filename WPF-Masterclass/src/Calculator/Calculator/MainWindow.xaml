@@ -107,7 +107,8 @@
             Background="LightGray"
             Margin="5"
             Grid.Column="3"
-            Grid.Row="3"/>
+            Grid.Row="3"
+            Click="OpButton_Click"/>
         <Button Content="1"
             Background="LightGray"
             Margin="5"
