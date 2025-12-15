@@ -25,7 +25,7 @@
 
         <Label
             Background="Wheat" 
-            Content="{Binding _lblValor}" 
+            Content="{Binding LblValor}" 
             Grid.ColumnSpan="4"
             FontSize="80"
             Margin="5"

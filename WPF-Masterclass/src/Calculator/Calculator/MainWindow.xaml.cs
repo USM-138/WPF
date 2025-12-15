@@ -1,14 +1,16 @@
-﻿using System.ComponentModel;
-using System.Runtime.CompilerServices;
-using System.Windows;
+﻿using System.Windows;
+using System.ComponentModel;
 using System.Windows.Controls;
+using System.Runtime.CompilerServices;
 
 namespace Calculator
 {
     public partial class MainWindow : Window, INotifyPropertyChanged
     {
         private decimal _valorAtual;
+
         public decimal valorOperacao = 0;
+
         private string _lblValor = "0";
 
         public MainWindow()
@@ -32,7 +34,6 @@ namespace Calculator
                     {
                         _valorAtual = resultado;
                     }
-
                     OnPropertyChanged();
                 }
             }
@@ -52,13 +53,13 @@ namespace Calculator
             string numero = numberButton.Content.ToString();
 
             // Verificamos a PROPRIEDADE, não a Label
-            if (_lblValor == "0")
+            if (LblValor == "0")
             {
-                _lblValor = numero;
+                LblValor = numero;
             }
             else
             {
-                _lblValor += numero;
+                LblValor += numero;
             }
         }
 
@@ -70,18 +71,17 @@ namespace Calculator
 
             if (signal == "+")
             {
-                // Acumula o valor atual na memória
                 valorOperacao += _valorAtual;
 
-                // Reseta o VISOR para o usuário digitar o próximo número
-                // Isso automaticamente zera o valorAtual via lógica reversa
-                _lblValor = "0";
+                LblValor = "0";
             }
         }
 
         private void eqButton_Click(object sender, RoutedEventArgs e)
         {
-            _valorAtual = valorOperacao;
+            decimal resultado = valorOperacao + _valorAtual;
+            LblValor = resultado.ToString();
+            valorOperacao = 0;
         }
     }
 }
